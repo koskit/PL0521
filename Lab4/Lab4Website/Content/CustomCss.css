@@ -1,0 +1,56 @@
+﻿.lightblueBackground {
+    background-color: lightblue;
+}
+
+.rosybrownBackground {
+    background-color: rosybrown
+}
+
+.darkcyanBackground {
+    background-color: darkcyan
+}
+
+.boldLetters {
+    font-weight: bold;
+}
+
+.italicLetters {
+    font-style: italic
+}
+
+.boarderDotted {
+    border: dotted
+}
+
+.boarderDouble {
+    border: double
+}
+
+.arialFont {
+    font-family: Arial
+}
+
+.newTimesRomanFont {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.mainDiv {
+    width: 100%;
+    position: relative;
+}
+
+.tableForCustomCss td {
+    padding: 10px
+}
+
+.customContainer {
+    padding: 20px;
+}

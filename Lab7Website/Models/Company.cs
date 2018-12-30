@@ -45,5 +45,10 @@ namespace Lab7Website.Models
             //Null on sql is minimum value.
             StartDate = DateTime.MinValue;
         }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Company"/> class.
+        /// </summary>
+        public Company() { }
     }
 }

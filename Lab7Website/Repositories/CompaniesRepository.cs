@@ -76,13 +76,12 @@ namespace Lab7Website.Repositories
                 SqlCommand cmd = new SqlCommand()
                 {
                     Connection = dbconnection,
-                    CommandText = "INSERT INTO Company ([CompanyId], [Name], [Description], [StartDate], [Limit]) " +
-                    "VALUES(@CompanyId, @Name, @Description, @StartDate, @Limit)"
+                    CommandText = "INSERT INTO Company ([Name], [Description], [StartDate], [Limit]) " +
+                    "VALUES(@Name, @Description, @StartDate, @Limit)"
                 };
 
                 cmd.Parameters.AddRange(new SqlParameter[]
                 {
-                    new SqlParameter("CompanyId",toCreate.CompanyId),
                     new SqlParameter("Name",toCreate.Name),
                     new SqlParameter("Description",toCreate.Description ?? string.Empty),
                     new SqlParameter("StartDate",toCreate.StartDate),
